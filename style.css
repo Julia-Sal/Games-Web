@@ -4,7 +4,7 @@ body{
     background-color: #000000;
     font-family: "Ojuju", sans-serif;
     color: #d1d1d1;
-    margin: 0 30px;
+    margin: 0 100px;
 }
 
 p{
@@ -15,6 +15,20 @@ hr{
     border: none;
     border-top: 2px solid #002452; /* Grubość i kolor linii */
     margin: 0 0;
+}
+
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.video{
+    max-width: 1000px;
+    max-height: 500px;
+    min-width: 400px;
+    min-height: 150px;
 }
 
 .text{
