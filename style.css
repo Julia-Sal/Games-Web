@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju&display=swap');
+
+body{
+    background-color: #000000;
+    font-family: "Ojuju", sans-serif;
+    color: #d1d1d1;
+    margin: 0 30px;
+}
+
+p{
+    font-weight: bold;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid #002452; /* Grubość i kolor linii */
+    margin: 0 0;
+}
+
+.text{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #002452;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #002452;
+}
+
+.container{
+    display: grid;
+    grid-gap: 20px;
+}
